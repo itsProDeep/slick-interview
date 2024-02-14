@@ -1,0 +1,32 @@
+{
+  "name": "slick-interview",
+  "version": "1.0.0",
+  "description": "repo for interview",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "debug": "node --inspect src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsProDeep/slick-interview.git"
+  },
+  "author": "pradeep kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsProDeep/slick-interview/issues"
+  },
+  "homepage": "https://github.com/itsProDeep/slick-interview#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "config": "^3.3.10",
+    "express": "^4.18.2",
+    "googleapis": "^131.0.0",
+    "mongodb": "^4.12.1",
+    "mysql": "^2.18.1",
+    "node-schedule": "^2.1.1",
+    "redis": "^4.6.12",
+    "twilio": "^4.21.0"
+  }
+}
